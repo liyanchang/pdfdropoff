@@ -1,0 +1,29 @@
+You'll need to install some additional pieces inorder for this to work:
+
+------------------------
+
+For use with Linux and LibreOffice:
+
+1. You'll need a macro that opens LibreOffice and prints the file
+http://www.togaware.com/linux/survivor/Convert_MS_Word.html
+
+[2]. You may also elect to find addition Microsoft fonts:
+http://www.oooninja.com/2008/01/calibri-linux-vista-fonts-download.html
+
+------------------------
+
+For use with OS X:
+
+We'll piggyback on QuickLook, then use this library to PDF the file
+http://code.google.com/p/wkhtmltopdf/
+
+------------------------
+------------------------
+
+This script is a polling script so you'll need to keep it running in the background in order for it to work.
+
+After configuring for your installation at the top of the file, run:
+
+$ python pdfdropoff.py &
+
+
